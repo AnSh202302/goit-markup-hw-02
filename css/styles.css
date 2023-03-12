@@ -1,0 +1,126 @@
+:root {
+  --bgc-header: #e7e9fc;
+  --bgc-primery: #e5e5e5;
+  --bgc-secondary: #f4f4fd;
+  --primery-color: #2e2f42;
+  --primery-text-color: #434455;
+  --secondary-text-color: #ffffff;
+  --accent-color-logo: #4d5ae5;
+  --accent-color-active: #404bbf;
+}
+
+body {
+  background: var(--bgc-primery);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: var(--bgc-header);
+}
+.logo {
+  color: var(--primery-color);
+  font-family: raleway, sans-serif;
+
+  font-weight: 800;
+  font-size: 1.33;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-color-logo);
+}
+.list {
+  list-style: none;
+}
+
+/*Site nav*/
+.site-nav .link,
+.portfolio-list {
+  color: var(--primery-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.site-nav .link:active,
+.contacts .link:active {
+  color: var(--accent-color-active);
+}
+.contacts .link,
+.portfolio-list .link {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.hero,
+.footer {
+  background-color: var(--primery-color);
+}
+.hero-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/*button*/
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color-logo);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color-active);
+}
+.btn-portfolio {
+  background-color: var(--bgc-secondary);
+  color: var(--accent-color-logo);
+  border-color: var(--bgc-header);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background-color: var(--accent-color-active);
+  color: var(--secondary-text-color);
+}
+
+/*Section*/
+.section-title {
+  color: var(--primery-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.section-advantages,
+.section-work {
+  background-color: var(--bgc-primery);
+}
+.section-team {
+  background-color: var(--bgc-secondary);
+}
+.title {
+  color: var(--primery-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*footer*/
+.footer {
+}
+.logo-footer {
+  color: var(--bgc-secondary);
+}
+.footer-text {
+  color: var(--bgc-header);
+}
