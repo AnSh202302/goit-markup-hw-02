@@ -97,7 +97,7 @@ body {
 .hero-button {
   color: var(--secondary-text-color);
   background-color: var(--accent-color-logo);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -108,7 +108,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-color-active);
+  color: var(--accent-color-active);
 }
 
 /*Advantages*/
@@ -170,6 +170,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primery-color);
+  background-color: var(--secondary-text-color);
 }
 .team-desc {
   font-size: 16px;
@@ -199,7 +200,7 @@ body {
   background-color: var(--bgc-secondary);
   color: var(--accent-color-logo);
   border-color: var(--bgc-header);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
