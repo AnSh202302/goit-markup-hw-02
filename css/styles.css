@@ -163,6 +163,7 @@ body {
   background-color: var(--secondary-text-color);
 }
 .team-item {
+  background-color: var(--secondary-text-color);
 }
 .team-item-title {
   font-weight: 500;
