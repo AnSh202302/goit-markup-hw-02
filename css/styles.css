@@ -10,7 +10,7 @@
 }
 
 body {
-  background: var(--accent-color-logo);
+  background: var(--secondary-text-color);
   color: var(--primery-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
@@ -27,7 +27,6 @@ body {
 
 /*Header*/
 .header {
-  background-color: var(--bgc-header);
 }
 .header-navigation {
 }
@@ -40,6 +39,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  word-spacing: -4px;
 }
 .header-logo-color {
   color: var(--primery-color);
@@ -108,13 +108,12 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--accent-color-active);
+  background-color: var(--accent-color-active);
 }
 
 /*Advantages*/
 
 .advantages {
-  background: var(--bgc-primery);
 }
 .advantages-list {
 }
@@ -191,7 +190,6 @@ body {
 
 /*Portfolio*/
 .portfolio {
-  background: var(--bgc-primery);
 }
 .filter {
 }
@@ -224,10 +222,7 @@ body {
 .portfolio-item {
 }
 .portfolio-link {
-  color: var(--primery-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
+  color: inherit;
 }
 .portfolio-title {
   font-weight: 500;
@@ -240,7 +235,4 @@ body {
 /*Site nav*/
 
 .portfolio-list .link {
-  color: var(--primery-text-color);
-  font-size: 16px;
-  line-height: 1.5;
 }
